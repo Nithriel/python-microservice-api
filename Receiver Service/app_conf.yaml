@@ -1,0 +1,5 @@
+version: 1 
+report_bug: 
+    url: http://localhost:8090/reports/bugs
+report_player: 
+    url: http://localhost:8090/reports/player

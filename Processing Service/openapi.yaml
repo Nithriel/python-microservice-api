@@ -1,0 +1,53 @@
+openapi: 3.0.0
+# Added by API Auto Mocking Plugin
+servers:
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/RaphaelPletz/momolita-game/1.0.0
+info:
+  description: This is an API that provides event stats
+  version: "1.0.0"
+  title: Momolita reporting system
+  contact:
+    email: raphael.pletz00@gmail.com
+paths:
+  /stats:
+    get:
+      summary: gets the event stats
+      operationId: app.get_stats
+      description: Gets bug and player reports stats
+      responses:
+        '200':
+          description: Successfully returned report stats
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/ReportStats'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    ReportStats:
+      type: object
+      required:
+        - num_player_reports
+        - num_bug_reports
+        - total_reports
+      properties:
+        num_player_reports:
+          type: integer
+          example: 50000
+        num_bug_reports:
+          type: integer
+          example: 50000
+        total_reports:
+          type: integer
+          example: 50000
