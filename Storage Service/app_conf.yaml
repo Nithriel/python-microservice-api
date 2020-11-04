@@ -1,0 +1,11 @@
+version: 1
+datastore:
+    user: root
+    password: CHANGE_ME
+    hostname: CHANGE_ME
+    port: 3306
+    db: events
+events:
+    hostname: CHANGE_ME
+    port: 9092
+    topic: events

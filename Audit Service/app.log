@@ -1,0 +1,118 @@
+2020-10-29 10:34:02,315 - basicLogger - INFO - Retrieving BP at index 20
+2020-10-29 10:34:02,445 - basicLogger - ERROR - Could not find BP at index 20
+2020-10-29 10:34:09,532 - basicLogger - INFO - Retrieving BP at index 2
+2020-10-29 10:34:09,663 - basicLogger - ERROR - Could not find BP at index 2
+2020-10-29 10:35:35,096 - basicLogger - INFO - Retrieving BP at index 2
+2020-10-29 10:35:35,197 - basicLogger - ERROR - Could not find BP at index 2
+2020-10-29 10:36:20,973 - basicLogger - INFO - Retrieving BP at index 2
+2020-10-29 10:36:21,086 - basicLogger - ERROR - Could not find BP at index 2
+2020-10-29 10:37:41,524 - basicLogger - INFO - Retrieving BP at index 2
+2020-10-29 10:37:41,631 - basicLogger - ERROR - Could not find BP at index 2
+2020-10-29 10:38:21,128 - basicLogger - INFO - Retrieving BP at index 0
+2020-10-29 10:38:21,229 - basicLogger - ERROR - Could not find BP at index 0
+2020-10-29 10:38:40,733 - basicLogger - INFO - Retrieving BP at index 0
+2020-10-29 10:38:40,834 - basicLogger - ERROR - Could not find BP at index 0
+2020-10-29 10:40:05,362 - basicLogger - INFO - Retrieving Player Reports at index 0
+2020-10-29 10:40:05,463 - basicLogger - ERROR - Could not find Player Reports at index 0
+2020-10-29 10:40:33,277 - basicLogger - INFO - Retrieving Player Reports at index 0
+2020-10-29 10:40:33,384 - basicLogger - ERROR - Could not find Player Reports at index 0
+2020-10-29 10:40:51,226 - basicLogger - INFO - Retrieving Player Reports at index 0
+2020-10-29 10:40:51,338 - basicLogger - ERROR - Could not find Player Reports at index 0
+2020-10-29 10:41:01,967 - basicLogger - INFO - Retrieving Player Reports at index 0
+2020-10-29 10:41:02,073 - basicLogger - ERROR - Could not find Player Reports at index 0
+2020-10-29 10:59:47,897 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 10:59:55,915 - basicLogger - INFO - Retrieving Domestic Baggage at index 1
+2020-10-29 11:00:48,230 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:01:33,633 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:01:36,208 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:01:44,762 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:01:46,138 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:01:47,318 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:01:48,609 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:01:49,745 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:01:50,953 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:02:01,909 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:02:03,279 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:02:08,153 - basicLogger - INFO - Retrieving Domestic Baggage at index 10
+2020-10-29 11:02:09,379 - basicLogger - INFO - Retrieving Domestic Baggage at index 10
+2020-10-29 11:02:28,583 - basicLogger - INFO - Retrieving Domestic Baggage at index 10
+2020-10-29 11:02:32,286 - basicLogger - INFO - Retrieving Domestic Baggage at index 10
+2020-10-29 11:02:34,055 - basicLogger - INFO - Retrieving Domestic Baggage at index 10
+2020-10-29 11:02:35,241 - basicLogger - INFO - Retrieving Domestic Baggage at index 10
+2020-10-29 11:04:48,579 - basicLogger - INFO - Retrieving Domestic Baggage at index 10
+2020-10-29 11:04:54,384 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:04:55,611 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:04:56,546 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:04:57,578 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:04:58,510 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:05:01,376 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:05:04,918 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:11:06,165 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:18:38,665 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:18:48,126 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:18:49,347 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:18:50,540 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:18:52,340 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:19:01,846 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:19:05,907 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:19:07,126 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:21:40,505 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:21:40,605 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:22:01,020 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:22:01,120 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:27:21,622 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:27:21,728 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:27:28,666 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:27:28,773 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:27:30,130 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:27:30,244 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:27:31,461 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:27:31,568 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:27:32,814 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:27:32,914 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:27:34,163 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:27:34,276 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:27:35,280 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:27:35,387 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:27:36,334 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:27:36,447 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:27:56,371 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:27:56,477 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:27:58,095 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:27:58,197 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:28:00,075 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:28:00,183 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:28:22,149 - basicLogger - INFO - Retrieving Domestic Baggage at index 1
+2020-10-29 11:28:22,257 - basicLogger - ERROR - Could not find Domestic Baggage at index 1
+2020-10-29 11:28:28,422 - basicLogger - INFO - Retrieving Domestic Baggage at index 5
+2020-10-29 11:28:28,523 - basicLogger - ERROR - Could not find Domestic Baggage at index 5
+2020-10-29 11:32:21,198 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:32:21,305 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:32:56,582 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:32:56,683 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:33:17,195 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:33:17,303 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:34:54,928 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:34:55,042 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:35:32,061 - basicLogger - INFO - Retrieving Domestic Baggage at index 0
+2020-10-29 11:35:32,167 - basicLogger - ERROR - Could not find Domestic Baggage at index 0
+2020-10-29 11:35:53,654 - basicLogger - INFO - Retrieving Domestic Baggage at index 5
+2020-10-29 11:35:53,761 - basicLogger - ERROR - Could not find Domestic Baggage at index 5
+2020-10-29 11:45:31,358 - basicLogger - INFO - Retrieving Domestic Baggage at index 5
+2020-10-29 11:45:31,459 - basicLogger - ERROR - Could not find Domestic Baggage at index 5
+2020-10-29 11:46:16,982 - basicLogger - INFO - Retrieving Domestic Baggage at index 5
+2020-10-29 11:47:40,527 - basicLogger - INFO - Retrieving Domestic Baggage at index 5
+2020-10-29 11:47:46,568 - basicLogger - INFO - Retrieving Domestic Baggage at index 5
+2020-10-29 14:28:57,241 - basicLogger - INFO - Retrieving Bug Reports at index 5
+2020-10-29 14:29:02,082 - basicLogger - INFO - Retrieving Bug Reports at index 6
+2020-10-29 14:37:34,624 - basicLogger - INFO - Retrieving Bug Reports at index 6
+2020-10-29 14:37:40,383 - basicLogger - INFO - Retrieving Bug Reports at index 10
+2020-10-29 14:37:40,490 - basicLogger - ERROR - Could not find Bug Reports at index 10
+2020-10-29 14:37:46,404 - basicLogger - INFO - Retrieving Bug Reports at index 3
+2020-10-29 14:38:04,001 - basicLogger - INFO - Retrieving Player Reports at index 3
+2020-10-29 14:38:09,223 - basicLogger - INFO - Retrieving Player Reports at index 10
+2020-10-29 14:38:16,120 - basicLogger - INFO - Retrieving Player Reports at index 100
+2020-10-29 14:38:46,764 - basicLogger - INFO - Retrieving Player Reports at index 1000
+2020-10-29 14:38:47,008 - basicLogger - ERROR - Could not find Player Reports at index 1000
+2020-10-29 14:39:02,843 - basicLogger - INFO - Retrieving Bug Reports at index 50
+2020-10-29 14:39:07,065 - basicLogger - INFO - Retrieving Bug Reports at index 100

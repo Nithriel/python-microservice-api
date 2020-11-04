@@ -3,3 +3,7 @@ report_bug:
     url: http://localhost:8090/reports/bugs
 report_player: 
     url: http://localhost:8090/reports/player
+events:
+    hostname: CHANGE_ME
+    port: 9092
+    topic: events

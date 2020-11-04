@@ -1,0 +1,137 @@
+openapi: 3.0.0
+# Added by API Auto Mocking Plugin
+servers:
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/RaphaelPletz/momolita-game/1.0.0
+info:
+  description: This is an API that receives bug and player reports for an imaginary game called Momolita
+  version: "1.0.0"
+  title: Momolita reporting system
+  contact:
+    email: raphael.pletz00@gmail.com
+tags:
+  - name: Bugs
+    description: In-game or website bugs reporting
+  - name: Player reporting
+    description: Abusive players reporting
+paths:
+  /reports/bugs:
+    get:
+      tags:
+        - Bugs
+      summary: gets new bug reports
+      operationId: app.get_bug_reports
+      description: Gets bug reports added after a timestamp
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33
+      responses:
+        '200':
+          description: Successfully returned a list of bug reports
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/bugReport'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /reports/player:
+    get:
+      tags:
+        - Player reporting
+      summary: gets new player report
+      operationId: app.get_player_reports
+      description: Gets player reports added after a timestamp
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33
+      responses:
+        '200':
+          description: Successfully returned a list of bug reports
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/playerReport'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    bugReport:
+      type: object
+      required:
+        - title
+        - description
+        - location
+        - type
+      properties:
+        title:
+          type: string
+          example: Unable to buy Health Potion
+        description:
+          type: string
+          example: If I double click the second menu option I can't buy the item
+        location:
+          type: string
+          example: Frozen Wastes
+          enum: ['Frozen Wastes', 'Golden Sands', 'Death Swamp']
+        type:
+          type: string
+          example: UI
+          enum: ['UI', 'Graphics', 'Audio', 'Text', 'Crashing']
+        date:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'
+    playerReport:
+      type: object
+      required:
+        - player_name
+        - description
+        - location
+        - type
+      properties:
+        player_name:
+          type: string
+          example: DeathstalkerXXX
+        description:
+          type: string
+          example: The player is flying and killing people instantly
+        location:
+          type: string
+          example: Golden Sands
+          enum: ['Frozen Wastes', 'Golden Sands', 'Death Swamp']
+        type:
+          type: string
+          example: 'Hacking'
+          enum: ['Griefing', 'Hate Speech', 'Hacking']
+        date:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'

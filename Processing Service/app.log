@@ -1233,3 +1233,51 @@
 2020-10-15 14:55:59,966 - basicLogger - DEBUG - Data store updated with num_player_reports: 6673, num_bug_reports: 7421, total_reports: 14094
 2020-10-15 14:55:59,966 - basicLogger - INFO - Period processing for stats has ended
 2020-10-15 14:56:00,943 - basicLogger - INFO - Periodic processing for stats has been initiated
+2020-10-28 15:52:41,422 - basicLogger - INFO - Periodic processing for stats has been initiated
+2020-10-28 15:53:05,671 - basicLogger - ERROR - Could not receive events GET bug reports list with status code 500
+2020-10-28 15:53:05,672 - basicLogger - ERROR - Could not receive events GET request player reports list with status code 500
+2020-10-28 15:53:05,672 - basicLogger - DEBUG - Data store updated with num_player_reports: 6673, num_bug_reports: 7421, total_reports: 14094
+2020-10-28 15:53:05,684 - basicLogger - INFO - Period processing for stats has ended
+2020-10-28 15:53:06,423 - basicLogger - INFO - Periodic processing for stats has been initiated
+2020-10-28 15:53:30,573 - basicLogger - ERROR - Could not receive events GET bug reports list with status code 500
+2020-10-28 15:53:30,574 - basicLogger - ERROR - Could not receive events GET request player reports list with status code 500
+2020-10-28 15:53:30,574 - basicLogger - DEBUG - Data store updated with num_player_reports: 6673, num_bug_reports: 7421, total_reports: 14094
+2020-10-28 15:53:30,574 - basicLogger - INFO - Period processing for stats has ended
+2020-10-28 15:53:31,424 - basicLogger - INFO - Periodic processing for stats has been initiated
+2020-10-28 15:53:46,423 - basicLogger - INFO - Periodic processing for stats has been initiated
+2020-10-28 15:53:52,573 - basicLogger - INFO - 0 events received from bug reports GET request with status code 200
+2020-10-28 15:53:52,573 - basicLogger - INFO - 0 events received from player reports GET request with status code 200
+2020-10-28 15:53:52,574 - basicLogger - DEBUG - Data store updated with num_player_reports: 6673, num_bug_reports: 7421, total_reports: 14094
+2020-10-28 15:53:52,574 - basicLogger - INFO - Period processing for stats has ended
+2020-10-28 15:53:56,424 - basicLogger - INFO - Periodic processing for stats has been initiated
+2020-10-28 15:54:00,544 - basicLogger - INFO - 0 events received from bug reports GET request with status code 200
+2020-10-28 15:54:00,545 - basicLogger - INFO - 0 events received from player reports GET request with status code 200
+2020-10-28 15:54:00,546 - basicLogger - DEBUG - Data store updated with num_player_reports: 6673, num_bug_reports: 7421, total_reports: 14094
+2020-10-28 15:54:00,546 - basicLogger - INFO - Period processing for stats has ended
+2020-10-28 15:54:01,423 - basicLogger - INFO - Periodic processing for stats has been initiated
+2020-10-28 15:54:05,555 - basicLogger - INFO - 0 events received from bug reports GET request with status code 200
+2020-10-28 15:54:05,555 - basicLogger - INFO - 0 events received from player reports GET request with status code 200
+2020-10-28 15:54:05,567 - basicLogger - DEBUG - Data store updated with num_player_reports: 6673, num_bug_reports: 7421, total_reports: 14094
+2020-10-28 15:54:05,567 - basicLogger - INFO - Period processing for stats has ended
+2020-10-28 15:54:06,423 - basicLogger - INFO - Periodic processing for stats has been initiated
+2020-10-28 15:54:10,546 - basicLogger - INFO - 0 events received from bug reports GET request with status code 200
+2020-10-28 15:54:10,558 - basicLogger - INFO - 0 events received from player reports GET request with status code 200
+2020-10-28 15:54:10,559 - basicLogger - DEBUG - Data store updated with num_player_reports: 6673, num_bug_reports: 7421, total_reports: 14094
+2020-10-28 15:54:10,559 - basicLogger - INFO - Period processing for stats has ended
+2020-10-28 15:54:11,422 - basicLogger - INFO - Periodic processing for stats has been initiated
+2020-10-28 15:54:15,571 - basicLogger - INFO - 0 events received from bug reports GET request with status code 200
+2020-10-28 15:54:15,571 - basicLogger - INFO - 0 events received from player reports GET request with status code 200
+2020-10-28 15:54:15,584 - basicLogger - DEBUG - Data store updated with num_player_reports: 6673, num_bug_reports: 7421, total_reports: 14094
+2020-10-28 15:54:15,585 - basicLogger - INFO - Period processing for stats has ended
+2020-10-28 15:54:16,423 - basicLogger - INFO - Periodic processing for stats has been initiated
+2020-10-28 15:54:20,545 - basicLogger - INFO - 0 events received from bug reports GET request with status code 200
+2020-10-28 15:54:20,558 - basicLogger - INFO - 0 events received from player reports GET request with status code 200
+2020-10-28 15:54:20,559 - basicLogger - DEBUG - Data store updated with num_player_reports: 6673, num_bug_reports: 7421, total_reports: 14094
+2020-10-28 15:54:20,560 - basicLogger - INFO - Period processing for stats has ended
+2020-10-28 15:54:21,424 - basicLogger - INFO - Periodic processing for stats has been initiated
+2020-10-28 15:54:25,539 - basicLogger - INFO - 0 events received from bug reports GET request with status code 200
+2020-10-28 15:54:25,539 - basicLogger - INFO - 0 events received from player reports GET request with status code 200
+2020-10-28 15:54:25,539 - basicLogger - DEBUG - Data store updated with num_player_reports: 6673, num_bug_reports: 7421, total_reports: 14094
+2020-10-28 15:54:25,540 - basicLogger - INFO - Period processing for stats has ended
+2020-10-28 15:54:26,425 - basicLogger - INFO - Periodic processing for stats has been initiated
+2020-10-28 15:54:31,423 - basicLogger - INFO - Periodic processing for stats has been initiated
