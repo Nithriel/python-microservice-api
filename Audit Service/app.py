@@ -1,6 +1,7 @@
 import connexion
 from connexion import NoContent
 import datetime
+from flask_cors import CORS, cross_origin
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -91,6 +92,8 @@ def get_player_reports(index):
     return { "message": "Not Found" }, 404
 
 app = connexion.FlaskApp(__name__, specification_dir='')
+CORS(app.app)
+app.app.config['CORS_HEADERS'] = 'Content-Type'
 app.add_api("openapi.yaml", base_path='/', strict_validation=True, validate_responses=True)    
 
 if __name__ == "__main__":
