@@ -32,7 +32,8 @@ def get_stats():
             show_stats = {
                 "num_player_reports": data_stats["num_player_reports"],
                 "num_bug_reports": data_stats["num_bug_reports"],
-                "total_reports": data_stats["total_reports"]
+                "total_reports": data_stats["total_reports"],
+                "last_updated": data_stats["last_updated"]
             }
             
             logger.debug('Get stats with num_player_reports: {}, num_bug_reports: {}, total_reports: {}'.format(
