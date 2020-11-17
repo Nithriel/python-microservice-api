@@ -75,6 +75,7 @@ services:
         volumes:        
             - /home/ubuntu/config/processing:/config 
             - /home/ubuntu/logs:/logs 
+            - processing-db:/data
         network_mode: "host"
         depends_on:
             - "storage"
@@ -91,3 +92,4 @@ services:
             - "kafka"
 volumes:
     my-db:
+    processing-db:
