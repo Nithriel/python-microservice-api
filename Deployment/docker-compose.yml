@@ -82,7 +82,6 @@ services:
             - /home/ubuntu/config/processing:/config 
             - /home/ubuntu/logs:/logs 
             - processing-db:/data
-        network_mode: "host"
         depends_on:
             - "storage"
     audit:
